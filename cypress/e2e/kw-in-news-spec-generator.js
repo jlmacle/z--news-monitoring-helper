@@ -1,3 +1,7 @@
+// Git is configured to replace all windows line endings '\r\n' with the  Unix-style '\n'
+// All '\r' needs to be removed in case of file editing on Windows
+// Split should be done with '\n'
+
 let specGeneratedName = "Generated-File_keywords-in-websites.cy.js";
 let websites = [];
 let keywords = [];
@@ -6,7 +10,6 @@ let specEnd = "\n\n})";
 let specSkeleton = "";
 
 // Reading website list
-// Deadlinks are assumed checked with corresponding spec file
 // Beware of empty lines in the file
 const fs = require('fs');
 
@@ -26,10 +29,10 @@ fs.readFile('../fixtures/Potential-websites-to-search-from.txt', 'utf8', (err, d
             console.error(err);
         }
         else
-        {    
-            console.log("\nRetrieved website data :");
-            console.log(data);          
-            websites = data.split('\r'); 
+        {               
+            data = data.replaceAll('\r','');              
+            websites = data.split('\n'); 
+            console.log(websites);
         }    
     }
 );
@@ -42,12 +45,12 @@ fs.readFile('../fixtures/keywords.txt', 'utf8', (err, data) =>
             console.error(err);
         }
         else
-        {
-            console.log("\nRetrieved keyword data :");
-            console.log(data);
+        {            
             // split and trim the data                
-
-            keywords = data.split('\r'); 
+            data = data.replaceAll('\r','');
+            keywords = data.split('\n'); 
+            console.log("\nKeywords to search for :");
+            console.log(keywords);
 
             // specs generation
             websites.forEach((website)=>
@@ -66,7 +69,7 @@ fs.readFile('../fixtures/keywords.txt', 'utf8', (err, data) =>
                             `\n\tcy.contains("${keyword_noLineReturn}").parent().first().screenshot();`+
                             `\n\t})`;
 
-                            console.log(`\nSpec skeleton: \n${specSkeleton}`);
+                            console.log('\n'+specSkeleton)
                             
                             fs.writeFile(specGeneratedName, specSkeleton, { flag: 'a+' },(err) => 
                             {
@@ -91,7 +94,6 @@ fs.readFile('../fixtures/keywords.txt', 'utf8', (err, data) =>
         }    
     }
 );
-
 
 
 
