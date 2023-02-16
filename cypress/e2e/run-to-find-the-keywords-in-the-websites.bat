@@ -17,11 +17,10 @@ del /f "../screenshots/%generated-file-name%/*.*" 2>nul
 del %generated-file-name% 2>nul
 timeout /T 300
 
-echo Generating the tests
+echo Starting the tests generation
 node kw-in-news-spec-generator.js
 echo a TimeOut value in case of test generation issue.
 
 timeout /T 10
 
 start "Tests run by Cypress" spec-run.bat
-
