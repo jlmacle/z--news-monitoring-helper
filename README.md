@@ -10,7 +10,7 @@ Download the [zip file ](https://github.com/jlmacle/News-monitoring-helper/archi
 ## Cypress installation:
 Once the code extracted, go to the root directory,
 and run the command <br>
-    npm install cypress --save-dev
+<code>npm install cypress --save-dev</code>
 
 ## Use:
 [ Make sure to change no file names ] <br>
