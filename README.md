@@ -14,6 +14,10 @@ and run the command <br>
 
 ## Use :
 [ Make sure to change no file names ] <br>
+The text files containing keywords and website URLS are located in <b>cypress/fixtures</b>.<br>
+On Windows, I suggest Notepad to edit these files.
+
+<br>
 Run the script <b>run-to-find-the-keywords-in-the-websites.bat</b> located in <b>cypress/e2e</b> <br>
 The screenshots taken when a keyword has been considered as detected (sometimes wrongly) <br>
 are in the folder <b>cypress/screenshots</b>. <br>
