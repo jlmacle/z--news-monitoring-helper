@@ -21,4 +21,8 @@ sleep 10
 
 cd ../..
 npx cypress run --config screenshotOnRunFailure=false,video=false --spec ./cypress/e2e/$generatedFileName
+<<<<<<< HEAD
 cd cypress/e2e
+=======
+cd cypress/e2e
+>>>>>>> 954f9c8 (Runs on macOS. Not yet tested on Ubuntu)
