@@ -20,13 +20,5 @@ echo "a 10s TimeOut value in case of test generation issue.""
 sleep 10
 
 cd ../..
-npx cypress run --config screenshotOnRunFailure=false,video=false --spec ./cypress/e2e/$generatedFileName
-<<<<<<< HEAD
-cd cypress/e2e
-=======
-cd cypress/e2e
->>>>>>> 954f9c8 (Runs on macOS. Not yet tested on Ubuntu)
-
-cd ../..
-npx cypress run --config screenshotOnRunFailure=false,video=false --spec ./cypress/e2e/$generated-file-name
+./node_modules/cypress/bin/cypress run --config screenshotOnRunFailure=false,video=false --spec ./cypress/e2e/$generatedFileName
 cd cypress/e2e
