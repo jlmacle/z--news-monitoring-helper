@@ -26,3 +26,7 @@ cd cypress/e2e
 =======
 cd cypress/e2e
 >>>>>>> 954f9c8 (Runs on macOS. Not yet tested on Ubuntu)
+
+cd ../..
+npx cypress run --config screenshotOnRunFailure=false,video=false --spec ./cypress/e2e/$generated-file-name
+cd cypress/e2e
