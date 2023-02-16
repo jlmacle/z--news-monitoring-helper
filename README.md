@@ -14,15 +14,15 @@ and run the command <br>
 
 ## Use:
 [ Make sure to change no file names ] <br>
-Run the script run-to-find-the-keywords-in-the-websites.bat located in cypress/e2e
-The screenshots taken when a keyword has been considered as detected (sometimes wrongly )
-are in the folder cypress/screenshots.
-They help distinguish between when the keyword was found in a news text,
-and when an issue happened and the keyword cannot be found in the picture.
-The terminal is another place where you can see when a keyword has been considered as detected.
-By Ctrl-clicking on a link in the terminal, you can open the URL in a browser.
-Note that not all breakthroughs will be recent.
-A potentially useful companion for news watching.
+Run the script run-to-find-the-keywords-in-the-websites.bat located in cypress/e2e <br>
+The screenshots taken when a keyword has been considered as detected (sometimes wrongly ) <br>
+are in the folder cypress/screenshots. <br>
+They help distinguish between when the keyword was found in a news text, <br>
+and when an issue happened and the keyword cannot be found in the picture. <br> <br>
+The terminal is another place where you can see when a keyword has been considered as detected. <br>
+By Ctrl-clicking on a link in the terminal, you can open the URL in a browser. <br>
+Note that not all breakthroughs will be recent. <br>
+A potentially useful companion for news watching. <br> <br>
 Happy searching.
 
 
