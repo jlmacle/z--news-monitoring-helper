@@ -5,7 +5,7 @@ News monitoring program based on Cypress, and potentially useful to find keyword
 You need to have installed [Node.js](https://nodejs.org/en/).
 
 ## Code download:
-Download the [zip file ]() and extract its content.
+Download the [zip file ](https://github.com/jlmacle/News-monitoring-helper/archive/refs/heads/main.zip) and extract its content.
 
 ## Cypress installation:
 Once the code extracted, go to the root directory,
