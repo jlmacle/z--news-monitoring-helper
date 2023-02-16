@@ -1,7 +1,6 @@
 # News monitoring helper
 News monitoring program based on Cypress, potentially useful to find keywords in news pages.
 
-<<<<<<< HEAD
 ## Requirements :
 You need to have installed [Node.js](https://nodejs.org/en/).<br>
 On Linux, install npm as well.
@@ -31,6 +30,4 @@ Note that not all breakthroughs will be recent. <br>
 That being said, the program is a potentially useful companion for news monioring. <br> <br>
 Happy searching.
 
-=======
->>>>>>> 6d0f55d (Update README.md)
 
