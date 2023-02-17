@@ -4,6 +4,7 @@ News monitoring program based on Cypress, potentially useful to find keywords in
 ## Requirements :
 You need to have installed [Node.js](https://nodejs.org/en/).<br>
 On Linux, install npm as well.<br>
+On Windows, you might have to allow the main script to run.
 The script has been tested on Windows, macOS, and Linux.
 
 ## Code download :
@@ -12,7 +13,7 @@ Download the [zip file ](https://github.com/jlmacle/News-monitoring-helper/archi
 ## Cypress installation :
 Once the code extracted, go to the root directory,
 and run the command <br>
-<code>npm install cypress --save-dev</code>
+<code>npm install</code>
 
 ## Use :
 [ Make sure to change no file names ] <br>
