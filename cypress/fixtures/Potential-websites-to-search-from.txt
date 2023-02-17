@@ -72,7 +72,6 @@ https://www.news.ucsb.edu/topics/research
 https://www.news.ucsb.edu/topics/sustainability
 https://www.ntu.edu.sg/news?listingKeyword=&sort=latest&categories=8504fdc4-d735-4ffd-ab1a-22d55d458df6%7C53e7dc49-ddef-4458-9e2b-221e1a763670%7C8ba21e89-cf48-4986-bbca-ddbaf345398b%7C60450cc0-e915-4069-9229-aaac635b6235&page=1
 https://www.nyu.edu/about/news-publications/news/search.html?nt=academics:research
-https://www.omu.ac.jp/en/info/news/
 https://www.ox.ac.uk/news-listing?category=228
 https://www.pnnl.gov/
 https://www.princeton.edu/news?search=&category=971
@@ -83,7 +82,6 @@ https://www.tmu.ac.jp/english/index.html
 https://www.tohoku.ac.jp/en/news/research/index.html
 https://www.tum.de/en/news-and-events/all-news?tx_news_pi1%5BoverwriteDemand%5D%5BfilteredCategories%5D%5B%5D=285&tx_news_pi1%5BoverwriteDemand%5D%5BfilteredCategories%5D%5B%5D=352&no_cache=1
 https://www.uab.edu/reporter/campus/itemlist/tag/research?start=100
-https://www.uaeu.ac.ae/en/dvcrgs/research/patents/research.shtml
 https://www.ucdavis.edu/news/innovation
 https://www.ucdavis.edu/news/science-technology
 https://www.ufs.ac.za/templates/news-archive
