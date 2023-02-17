@@ -131,3 +131,4 @@ dist
 
 # Cypress screenshots
 cypress/screenshots
+cypress/videos
