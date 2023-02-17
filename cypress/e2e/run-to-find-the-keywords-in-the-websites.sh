@@ -15,7 +15,7 @@ rm $generatedFileName 2>nul
 echo "Starting the tests generation"
 node kw-in-news-spec-generator.js
 
-echo "a 10s TimeOut value in case of test generation issue.""
+echo "a 10s sleep value in case of test generation issue.""
 
 sleep 10
 
