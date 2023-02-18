@@ -1,4 +1,4 @@
-<i>Work to be done on the shell script.</i>
+<i>The shell script hasn't been tested on macOS. Might work.</i>
 
 # News monitoring helper
 News monitoring program based on Cypress, potentially useful to find keywords in news pages.
