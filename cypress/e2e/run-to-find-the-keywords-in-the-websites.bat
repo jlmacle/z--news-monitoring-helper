@@ -1,4 +1,5 @@
 set generated-file-name=Generated-File_keywords-in-websites.cy.js
+set debug=1
 
 cls
 echo off
@@ -14,8 +15,12 @@ timeout /T 120
 
 echo Deleting previous specs screenshots
 del /f "../screenshots/%generated-file-name%/*.*" 2>nul
-del %generated-file-name% 2>nul
-timeout /T 300
+if %debug% equ 1  ( dir "../screenshots/" )
+
+echo Deleting the previously generated tests
+del %generated-file-name% 
+if %debug% equ 1 ( dir )
+if %debug% equ 1 ( timeout /T 15 )
 
 echo Starting the tests generation
 node kw-in-news-spec-generator.js
