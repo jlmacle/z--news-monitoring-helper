@@ -1,6 +1,4 @@
-<i>Work to be done on the shell script. <br>
-Let me re-run some tests with Windows. <br>
-Might work if you don't.</i>
+<i>Work to be done on the shell script.</i>
 
 # News monitoring helper
 News monitoring program based on Cypress, potentially useful to find keywords in news pages.
