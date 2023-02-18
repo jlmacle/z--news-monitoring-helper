@@ -16,12 +16,12 @@ timeout /T 120
 echo.
 echo.
 echo Deleting previous specs screenshots
-del /f "../screenshots/%generated-file-name%/*.*" 
-if %debug% equ 1  ( dir "../screenshots/%generated-file-name%/" )
+rmdir /s /q "../screenshots/%generated-file-name%/" 
+if %debug% equ 1  ( dir "../screenshots/" )
 
 echo.
 echo.
-echo Deleting the previously generated tests
+echo Deleting the previously generated tests (Generated-File_keywords-in-websites.cy.js)
 del %generated-file-name% 
 if %debug% equ 1 ( dir )
 if %debug% equ 1 ( timeout /T 15 )
