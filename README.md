@@ -11,6 +11,9 @@ On Linux, install npm as well.<br>
 On Windows, you might have to allow the main script to run.<br>
 You might also have to wait for your antivirus to analyse the file.<br>
 Mine started by denying access to the file, before allowing the script to be run.<br>
+<br><br>
+At times, the script generates no test.<br>
+When this happens, re-run the script.<br>
 
 ## Code download :
 Download the [zip file ](https://github.com/jlmacle/News-monitoring-helper/archive/refs/heads/main.zip) and extract its content.
