@@ -1,3 +1,7 @@
+<i>Work to be done on the shell script <br>
+Let me re-run some tests with Windows. <br>
+Might work if you don't</i>
+
 # News monitoring helper
 News monitoring program based on Cypress, potentially useful to find keywords in news pages.
 
@@ -5,7 +9,7 @@ News monitoring program based on Cypress, potentially useful to find keywords in
 You need to have [Node.js](https://nodejs.org/en/) installed.<br>
 On Linux, install npm as well.<br>
 On Windows, you might have to allow the main script to run.<br>
-<i>Work to be done on the shell script</i>
+
 
 ## Code download :
 Download the [zip file ](https://github.com/jlmacle/News-monitoring-helper/archive/refs/heads/main.zip) and extract its content.
