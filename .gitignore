@@ -133,3 +133,6 @@ dist
 cypress/screenshots
 cypress/videos
 Generated-File_keywords-in-websites.cy.js
+
+# Misc
+.buildconfig
