@@ -10,7 +10,7 @@ let specEnd = "\n\n})";
 let specSkeleton = "";
 
 // Reading website list
-// Beware of empty lines in the file
+// Avoid empty lines in the file
 const fs = require('fs');
 
 fs.writeFile(specGeneratedName, specBegin, { flag: 'a+' },(err) => 
@@ -32,7 +32,7 @@ fs.readFile('../fixtures/Potential-websites-to-search-from.txt', 'utf8', (err, d
         {               
             data = data.replaceAll('\r','');              
             websites = data.split('\n'); 
-            console.log(websites);
+            //console.log(websites);
         }    
     }
 );
