@@ -2,7 +2,7 @@
 
 # News monitoring helper
 News monitoring program based on Cypress, potentially useful to find keywords in news pages.<br>
-A help to find news on the positive side of life.
+Used to find breakthroughs in university news.
 
 ## Requirements :
 You need to have [Node.js](https://nodejs.org/en/) installed.<br>
