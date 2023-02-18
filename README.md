@@ -28,6 +28,9 @@ Mine started by denying access to the file, before allowing the script to be run
 <br><br>
 At times, the script generates no test.<br>
 When this happens, re-run the script.<br>
+As a consequence, cron/time-scheduled tasks might fail at times. <br>
+You can find versions adapted to this type of use in the <b>cypress/e2e</b> folder. <br>
+Trying to fix the issue shouldn't be my priority.<br><br>
 Files/folder not found messages at the first run are normal.<br><br>
 The screenshots taken when a keyword has been considered as detected (sometimes wrongly) <br>
 are in the folder <b>cypress/screenshots</b>. <br>
