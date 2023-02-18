@@ -6,7 +6,7 @@ You need to have [Node.js](https://nodejs.org/en/) installed.<br>
 On Linux, install npm as well.<br>
 On Windows, you might have to allow the main script to run.<br>
 
-<i>There is a work in progress to fix an issue withn the macOS/Linux version</i>
+<i>There is a work in progress to fix an issue with the macOS/Linux version</i>
 
 ## Code download :
 Download the [zip file ](https://github.com/jlmacle/News-monitoring-helper/archive/refs/heads/main.zip) and extract its content.
