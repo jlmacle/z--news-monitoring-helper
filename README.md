@@ -6,12 +6,6 @@ News monitoring program based on Cypress, potentially useful to find keywords in
 ## Requirements :
 You need to have [Node.js](https://nodejs.org/en/) installed.<br>
 On Linux, install npm as well.<br>
-On Windows, you might have to allow the main script to run.<br>
-You might also have to wait for your antivirus to analyse the file.<br>
-Mine started by denying access to the file, before allowing the script to be run.<br>
-<br><br>
-At times, the script generates no test.<br>
-When this happens, re-run the script.<br>
 
 ## Code download :
 Download the [zip file ](https://github.com/jlmacle/News-monitoring-helper/archive/refs/heads/main.zip) and extract its content.
@@ -28,6 +22,13 @@ On Windows, I suggest Notepad to edit these files.
 
 <br>
 Run the script <b>run-to-find-the-keywords-in-the-websites.bat/.sh</b> located in <b>cypress/e2e</b>. <br>
+On Windows, you might have to allow the main script to run.<br>
+You might also have to wait for your antivirus to analyse the file.<br>
+Mine started by denying access to the file, before allowing the script to be run.<br>
+<br><br>
+At times, the script generates no test.<br>
+When this happens, re-run the script.<br>
+Files/folder not found messages at the first run are normal.<br><br>
 The screenshots taken when a keyword has been considered as detected (sometimes wrongly) <br>
 are in the folder <b>cypress/screenshots</b>. <br>
 They help distinguish between when the keyword was found in a news text, <br>
