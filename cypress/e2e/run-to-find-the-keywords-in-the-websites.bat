@@ -13,15 +13,21 @@ echo That being said, the program does find the keywords in some of the pages.
 echo **************************************************************************
 timeout /T 120
 
+echo.
+echo.
 echo Deleting previous specs screenshots
-del /f "../screenshots/%generated-file-name%/*.*" 2>nul
-if %debug% equ 1  ( dir "../screenshots/" )
+del /f "../screenshots/%generated-file-name%/*.*" 
+if %debug% equ 1  ( dir "../screenshots/%generated-file-name%/" )
 
+echo.
+echo.
 echo Deleting the previously generated tests
 del %generated-file-name% 
 if %debug% equ 1 ( dir )
 if %debug% equ 1 ( timeout /T 15 )
 
+echo.
+echo.
 echo Starting the tests generation
 node kw-in-news-spec-generator.js
 echo a TimeOut value in case of test generation issue.
