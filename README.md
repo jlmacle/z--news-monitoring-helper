@@ -21,7 +21,7 @@ The text files containing keywords and website URLs are located in <b>cypress/fi
 On Windows, I suggest Notepad to edit these files.
 
 <br>
-Run the script <b>run-to-find-the-keywords-in-the-websites.bat/.sh</b> located in <b>cypress/e2e</b> <br>
+Run the script <b>run-to-find-the-keywords-in-the-websites.bat/.sh</b> located in <b>cypress/e2e</b>. <br>
 The screenshots taken when a keyword has been considered as detected (sometimes wrongly) <br>
 are in the folder <b>cypress/screenshots</b>. <br>
 They help distinguish between when the keyword was found in a news text, <br>
@@ -29,7 +29,7 @@ and when an issue happened and the keyword cannot be found in the picture. <br> 
 The terminal is another place where you can see when a keyword has been considered as detected. <br>
 By Ctrl-clicking on a link in the terminal, you can open the URL in a browser. <br> <br>
 Note that not all breakthroughs will be recent. <br>
-That being said, the program is a potentially useful companion for news monioring. <br> <br>
+That being said, the program is a potentially useful companion for news monitoring. <br> <br>
 Happy searching.
 
 
