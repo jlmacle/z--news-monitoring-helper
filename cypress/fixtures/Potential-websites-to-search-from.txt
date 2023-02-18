@@ -84,7 +84,6 @@ https://www.tum.de/en/news-and-events/all-news?tx_news_pi1%5BoverwriteDemand%5D%
 https://www.uab.edu/reporter/campus/itemlist/tag/research?start=100
 https://www.ucdavis.edu/news/innovation
 https://www.ucdavis.edu/news/science-technology
-https://www.ufs.ac.za/templates/news-archive
 https://www.umass.edu/news/news-events/news-headlines?viewsreference[data][argument]=11&viewsreference[enabled_settings][argument]=argument&type=All&category=811&page=2
 https://www.umu.se/en/news/all-news/?page=2
 https://www.utwente.nl/en/research/themes/resilient/news/
