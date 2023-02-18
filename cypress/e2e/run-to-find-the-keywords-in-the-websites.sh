@@ -1,5 +1,6 @@
-set GENERATED_FILE_NAME="Generated-File_keywords-in-websites.cy.js"
 clear
+GENERATED_FILE_NAME="Generated-File_keywords-in-websites.cy.js"
+
 echo "**************************************************************************"
 echo "Please do not mind the randomly generated order of the tests."
 echo "Re-run the script if no test is generated."
@@ -9,21 +10,22 @@ echo "That being said, the program does find the keywords in some of the pages."
 echo "**************************************************************************"
 read -p "press the Enter key to continue"
 
+echo 
 echo "Deleting previous specs screenshots"
-rm -f "../screenshots/$GENERATED_FILE_NAME/*.*" #2>/dev/null
-ls ../screenshots
+rm -rf "../screenshots/$GENERATED_FILE_NAME" 
+ls -la ../screenshots
 read -p "press the Enter key to continue"
 
-echo "Deleting the previously generated tests
-rm $GENERATED_FILE_NAME #2>/dev/null
+echo
+echo "Deleting the previously generated tests"
+rm -f $GENERATED_FILE_NAME 
 ls
-sleep 10
+read -p "press the Enter key to continue"
 
+echo
 echo "Starting the tests generation"
 node kw-in-news-spec-generator.js
-echo "a 10s TimeOut value in case of test generation issue."
-
-sleep 10
+read -p "press the Enter key to continue"
 
 cd ../..
 ./node_modules/cypress/bin/cypress run --config screenshotOnRunFailure=false,video=false --spec ./cypress/e2e/$generatedFileName
@@ -31,3 +33,7 @@ cd cypress/e2e
 
 
 # Credits to karakfa for the read command
+# https://stackoverflow.com/questions/36538150/linuxs-equivalent-of-windows-timeout-command
+
+# Credit to wyanez for echoing an empty line
+# https://stackoverflow.com/questions/37052899/what-is-the-preferred-method-to-echo-a-blank-line-in-a-shell-script
