@@ -1,7 +1,8 @@
 <i>The shell script hasn't been tested on macOS. Might work.</i>
 
 # News monitoring helper
-News monitoring program based on Cypress, potentially useful to find keywords in news pages.
+News monitoring program based on Cypress, potentially useful to find keywords in news pages.<br>
+A help to find news on the positive side of life.
 
 ## Requirements :
 You need to have [Node.js](https://nodejs.org/en/) installed.<br>
