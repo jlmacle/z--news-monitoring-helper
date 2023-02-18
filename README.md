@@ -21,7 +21,7 @@ The text files containing keywords and website URLs are located in <b>cypress/fi
 On Windows, I suggest Notepad to edit these files.
 
 <br>
-Run the script <b>run-to-find-the-keywords-in-the-websites.bat</b> located in <b>cypress/e2e</b> <br>
+Run the script <b>run-to-find-the-keywords-in-the-websites.bat/.sh</b> located in <b>cypress/e2e</b> <br>
 The screenshots taken when a keyword has been considered as detected (sometimes wrongly) <br>
 are in the folder <b>cypress/screenshots</b>. <br>
 They help distinguish between when the keyword was found in a news text, <br>
