@@ -23,7 +23,7 @@ On Windows, I suggest Notepad to edit these files.
 <br>
 Run the script <b>run-to-find-the-keywords-in-the-websites.bat/.sh</b> located in <b>cypress/e2e</b>. <br>
 On Windows, you might have to allow the main script to run.<br>
-You might also have to wait for your antivirus to analyse the file.<br>
+You might also have to wait for your antivirus to analyze the file.<br>
 Mine started by denying access to the file, before allowing the script to be run.<br>
 <br><br>
 At times, the script generates no test.<br>
