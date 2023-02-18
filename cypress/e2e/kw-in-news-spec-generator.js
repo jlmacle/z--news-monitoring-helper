@@ -8,6 +8,7 @@ let keywords = [];
 let specBegin = "describe('Testing the presence of keywords in the websites', () => {\n";
 let specEnd = "\n\n})";
 let specSkeleton = "";
+let debug = true;
 
 // Reading website list
 // Avoid empty lines in the file
@@ -31,8 +32,7 @@ fs.readFile('../fixtures/Potential-websites-to-search-from.txt', 'utf8', (err, d
         else
         {               
             data = data.replaceAll('\r','');              
-            websites = data.split('\n'); 
-            //console.log(websites);
+            websites = data.split('\n');             
         }    
     }
 );
@@ -69,7 +69,7 @@ fs.readFile('../fixtures/keywords.txt', 'utf8', (err, data) =>
                             `\n\tcy.contains("${keyword_noLineReturn}").parent().first().screenshot();`+
                             `\n\t})`;
 
-                            console.log('\n'+specSkeleton)
+                            if (debug) console.log('\n'+specSkeleton)
                             
                             fs.writeFile(specGeneratedName, specSkeleton, { flag: 'a+' },(err) => 
                             {
