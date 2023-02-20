@@ -1,3 +1,7 @@
+<b>Please run this version of the program one keyword at a time,<br>
+to avoid a potential denial of service fingerprint issue. <br>
+
+
 <i>The shell script hasn't been tested on macOS. Might work.</i>
 
 # News monitoring helper
