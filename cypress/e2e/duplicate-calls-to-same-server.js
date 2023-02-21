@@ -1,4 +1,4 @@
-// A helper script to find duplicate calls to the same server
+// A helper script to find duplicate requests toward the same server
 
 const fs = require('fs');
 const os = require('os');
