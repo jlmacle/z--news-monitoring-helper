@@ -1,7 +1,7 @@
 <b>Please run this program one keyword at a time,<br>
 to avoid a potential denial of service fingerprint issue.</b> <br>
 
-<i>The shell script hasn't been tested on macOS. Might work.</i>
+<i>The shell script hasn't been tested on macOS. It might work.</i>
 <br><br>
 
 
