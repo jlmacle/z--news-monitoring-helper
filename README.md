@@ -23,7 +23,7 @@ and run the command <br>
 
 ## Use :
 [ Make sure to change no file names ] <br>
-The text files containing keywords and website URLs are located in <b>cypress/fixtures</b>.<br>
+The text files containing keyword and website URLs are located in <b>cypress/fixtures</b>.<br>
 On Windows, I suggest Notepad to edit these files.
 
 <br>
