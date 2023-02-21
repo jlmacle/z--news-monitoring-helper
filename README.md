@@ -5,7 +5,7 @@ Planning an upgrade at the end of this week.<br>
 
 <i>The shell script hasn't been tested on macOS. Might work.</i>
 <br><br>
-Project(s) open to contributors.<br>
+Project open to contributors.<br>
 Jean-Louis Macle - techforgoodglobal.slack.com - tfg-enthusiasts.slack.com
  <br>
 
