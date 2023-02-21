@@ -5,7 +5,7 @@ Planning an upgrade at the end of this week.<br>
 
 <i>The shell script hasn't been tested on macOS. Might work.</i>
 <br><br>
-<p style="text-align:center;">Project open to contributors.</p><br>
+Project(s) open to contributors.<br>
 
 # News monitoring helper
 News monitoring program based on Cypress, potentially useful to find keywords in news pages.<br>
