@@ -53,11 +53,11 @@ fs.readFile('../fixtures/keywords.txt', 'utf8', (err, data) =>
             console.log(keywords);
 
             // specs generation
-            websites.forEach((website)=>
+            keywords.forEach((keyword)=>
                 {
                     // Going through the keywords list
-                    keywords.forEach(
-                        (keyword)=>
+                    websites.forEach(
+                        (website)=>
                         {            
                             // Removing the line return                
                             let website_noLineReturn = `${website.replace('\n','')}`;
