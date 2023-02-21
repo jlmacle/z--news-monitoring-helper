@@ -27,17 +27,14 @@ The text files containing keywords and website URLs are located in <b>cypress/fi
 On Windows, I suggest Notepad to edit these files.
 
 <br>
-Run the script <b>run-to-find-the-keywords-in-the-websites.bat/.sh</b> located in <b>cypress/e2e</b>. <br>
+Run the scripts <b>Windows-1-run-version.bat/Linux-1-run-version.sh</b> located in <b>cypress/e2e</b>. <br>
 On Windows, you might have to allow the main script to run.<br>
 You might also have to wait for your antivirus to analyze the file.<br>
 Mine started by denying access to the file, before allowing the script to be run.<br>
 <br><br>
 At times, the script generates no test.<br>
 When this happens, re-run the script.<br>
-As a consequence, cron/time-scheduled tasks might fail at times. <br>
-You can find versions adapted to this type of use in the <b>cypress/e2e</b> folder. <br>
-Trying to fix the issue shouldn't be my priority.<br>
-I plan to upload later a closer to fail-free version, that being said.<br><br>
+<br>
 Files/folder not found messages at the first run are normal.<br><br>
 The screenshots taken when a keyword has been considered as detected (sometimes wrongly) <br>
 are in the folder <b>cypress/screenshots</b>. <br>
