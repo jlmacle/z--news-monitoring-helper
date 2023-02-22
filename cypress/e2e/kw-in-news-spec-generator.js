@@ -38,7 +38,7 @@ fs.readFile('../fixtures/Potential-websites-to-search-from.txt', 'utf8', (err, d
 );
 
 // Keywords list
-fs.readFile('../fixtures/keywords.txt', 'utf8', (err, data) =>   
+fs.readFile('../fixtures/keyword.txt', 'utf8', (err, data) =>   
     {
 
         if (err) {     
