@@ -46,12 +46,19 @@ fs.readFile('../fixtures/keyword.txt', 'utf8', (err, data) =>
         }
         else
         {            
-            // split and trim the data                
-            data = data.replaceAll('\r','');
-            keywords = data.split('\n'); 
-            console.log("\nKeywords to search for :");
-            console.log(keywords);
+            // split and trim the data              
+            // data = data.replaceAll('\r','');
+            // keywords = data.split('\n'); 
+            // console.log("\nKeywords to search for :");
+            // console.log(keywords);
 
+            data = data.replaceAll('\r','');
+            data = data.replaceAll('\n','');
+            keywords.push(data);
+
+            // Assuming a single line
+            // Suppressing potentially empty lines
+                      
             // specs generation
             keywords.forEach((keyword)=>
                 {
