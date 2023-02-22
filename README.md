@@ -35,6 +35,8 @@ Run the scripts <b>Windows-1-run-version.bat/Linux-1-run-version.sh</b> located 
 On Windows, you might have to allow the main script to run.<br>
 You might also have to wait for your antivirus to analyze the file.<br>
 Mine started by denying access to the file, before allowing the script to be run.<br>
+On Linux, the script needs to be made executable,<br>
+with <code>chmod u+x Linux-1-run-version.sh</code> for example.
 <br><br>
 At times, the script generates no test.<br>
 When this happens, re-run the script.<br>
