@@ -1,8 +1,8 @@
 Fixed: empty lines being treated as keywords.
 ***
 
-<b>Please run this program one keyword at a time,<br>
-to avoid a potential denial of service fingerprint issue, <br>
+<b>The program runs one keyword at a time,<br>
+to avoid potentially triggering a denial of service issue, <br>
 that could occur while making close requests to the same web server.</b> <br><br>
 
 
