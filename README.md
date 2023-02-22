@@ -14,7 +14,6 @@ without the need to re-run the script in case of failure to generate the test fi
 
 # News monitoring helper
 News monitoring program based on Cypress, potentially useful to find keywords in news pages.<br>
-Used to find breakthroughs in university news.
 
 ## Requirements :
 You need to have [Node.js](https://nodejs.org/en/) installed.<br>
