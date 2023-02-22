@@ -3,7 +3,8 @@ to avoid a potential denial of service fingerprint issue, <br>
 that could occur while making close requests to the same web server.</b> <br><br>
 
 
-<i>The shell script hasn't been tested on macOS. It might work.</i>
+<i>The shell script hasn't been tested on macOS. It might work.</i><br><br>
+I'm planning to work on a close to fail-free version. <br>
 <br><br>
 
 
