@@ -1,4 +1,6 @@
-Fixed: empty lines being treated as keywords.
+Fixed: empty lines being treated as keywords.<br><br>
+
+In case of issue, [let me know](https://github.com/jlmacle/news-monitoring-helper/issues).
 ***
 
 <b>The program runs one keyword at a time,<br>
