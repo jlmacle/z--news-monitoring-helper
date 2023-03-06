@@ -7,8 +7,6 @@ In case of issue, [let me know](https://github.com/jlmacle/news-monitoring-helpe
 to avoid potentially triggering a denial of service issue, <br>
 that could occur while making close requests to the same web server.</b> <br><br>
 
-
-<i>The shell script hasn't been tested on macOS. It might work.</i><br><br>
 I'm planning to work on a close to fail-free version, <br>
 without the need to re-run the script in case of failure to generate the test file.<br>
 <br><br>
